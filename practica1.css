@@ -1,0 +1,38 @@
+body{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 10px;
+    margin: 5px 15px 5px 15px; /* te dice los margenes del sitio web*/
+    padding: 5;
+    color: black;
+    background-color: rgb(234, 242, 234);
+    table{
+    margin: auto;
+}
+}
+#a{
+    background-color: rgb(127, 127, 252);
+
+}
+#b{
+    background-color: rgb(49, 200, 251);
+
+}
+#c{
+    background-color: rgb(126, 203, 159);
+
+}
+#d{
+    background-color: rgb(165, 140, 142);
+
+}
+#e{
+    background-color: rgb(179, 237, 189);
+
+}
+#f{
+    background-color: rgb(165, 120, 120);
+
+}
+table{
+    margin: auto;
+}
