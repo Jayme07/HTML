@@ -1,0 +1,36 @@
+
+body{
+    font-family:'Times New Roman', Times, serif;                /* Fuente del texto */
+    font-size: 10px;                                           /* Tamaño general del texto */
+    margin: 5px 15px 5px 15px;                                /* Márgenes externos del body *//* te dice los margenes del sitio web*/
+    padding: 5px;                                            /* Relleno interno  */
+    color: black;                                         /* Color del texto */
+    background-color: rgb(234, 242, 234);                /* Fondo verde claro */
+       table, th, td { border: 1px solid black; } /* Bordes para tablas, cabeceras y celdas */
+  .main { text-align: center; } /* Clase para centrar texto */
+    table{ 
+        margin: auto;                                  /* Centra la tabla */
+    }
+     table {
+  border-collapse:separate; /* Une los bordes como en el PDF */
+  border-spacing: 1px; /* controla el espacio entre celdas */
+}
+
+table td, table th {
+  padding: 1px 2px; /* Espacios MUY pequeños, igual que el PDF */
+}
+ 
+                                      
+    }                                                
+                                                    
+#a{ background-color: rgb(127, 127, 252); }      /* Color para celdas id a */
+#b{ background-color: rgb(49, 200, 251); }      /* Color para id b */
+#c{ background-color: rgb(126, 203, 159); }    /* Color para id c */
+#d{ background-color: rgb(165, 140, 142); }   /* Color para id d */
+#e{ background-color: rgb(179, 237, 189); }  /* Color para id e */
+#f{ background-color: rgb(165, 120, 120); } /* Color para id f */
+td[id="b"],td[id="e"], td[id="f"] {
+  font-style: italic;
+}
+
+

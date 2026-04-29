@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient( #4a90e2, #50c9c3);
+   font-size: 10px;                                           /* Tamaño general del texto */
+    margin: 5px 15px 5px 15px;                                /* Márgenes externos del body *//* te dice los margenes del sitio web*/
+    padding: 5px;                                            /* Relleno interno  */
+    color: black;                                         /* Color del texto */
+     table, th, td { border: 1px solid black; } /* Bordes para tablas, cabeceras y celdas */
+  .main { text-align: center; } /* Clase para centrar texto */
+    table{ 
+        margin: auto;                                  /* Centra la tabla */
+    }
+  
+  }
+
+.container {
+  text-align: center;
+  color: rgb(40, 41, 52);
+}
+h1 {
+  font-size: 80px;
+  margin-bottom: 35px;
+}
+h2 {
+  font-size: 34px;
+   font-weight: 30PX;
+}
+h3 {
+  font-size: 24px;
+  margin-bottom: 300px;
+  font-weight: 30PX;
+}
+.btn {
+  text-decoration:aqua;
+  background: rgb(99, 93, 93);
+  color: #4a90e2;
+  padding: 10px 15px;
+  border-radius: 23px;
+  font-size: 16px;
+  font-weight: bold;
+ 
+}
