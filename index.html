@@ -1,0 +1,95 @@
+<!DOCTYPE html> <!-- Declara el tipo de documento HTML5 -->
+<html lang="es"> <!-- Idioma del documento: español -->
+
+<head>
+  <meta charset="utf-8"> <!-- Codificación de caracteres UTF-8 -->
+  <title>Prueba1 Adrián Podar</title> <!-- Título que aparece en la pestaña del navegador -->
+  <link rel="stylesheet" href="practica1.css"> <!-- Enlace al archivo CSS externo -->
+</head>
+
+<!-- Estilos internos mínimos para bordes y centrado de texto -->
+<style>
+  table, th, td { border: 1px solid black; } /* Bordes para tablas, cabeceras y celdas */
+  .main { text-align: center; } /* Clase para centrar texto */
+</style>
+
+<body> <!-- Contenido visible de la página -->
+  <h1 class="city main">Práctica 1</h1> <!-- Título principal centrado -->
+
+  <!-- Tabla 1: previsión meteorológica -->
+  <table class="city main">
+    <div class="city main"> 
+      <h2> Tabla 1</h2> <!-- Subtítulo de la tabla -->
+      <p>Esta es la primera tabla </p> <!-- Descripción breve -->
+
+      <tr id="a"> <!-- Fila de encabezados (debería usar th en lugar de td para semántica) -->
+        <td>Día</td>
+        <td>Hoy</td>
+        <td>Mañana</td>
+        <td>Viernes</td>
+      </tr>
+
+      <tr>
+        <td id="a">Condición</td> <!-- Celda con id para estilo -->
+        <td id="b">Soleado</td>
+        <td id="b">Mayormente soleado</td>
+        <td id="b">Parcialmente nublado</td>
+      </tr>
+
+      <tr>
+        <td id="a">Temperatura</td>
+        <td id="b">19ºC</td>
+        <td id="b">17ºC</td>
+        <td id="b">12ºC</td>
+      </tr>
+
+      <tr>
+        <td id="a">Vientos</td>
+        <td id="b">E 13km/h</td>
+        <td id="b">E 11km/h</td>
+        <td id="b">E 16km/h</td>
+      </tr>
+
+    </div>
+  </table>
+
+  <!-- Tabla 2: resultados por persona -->
+  <table class="city main">
+    <div class="city main"> <!-- Igual que arriba: evitar div dentro de table -->
+      <h2> Tabla 2</h2>
+      <p>Esta es la segunda tabla </p>
+
+      <tr>
+        <th id="a"></th> <!-- Cabecera vacía para alineación -->
+        <th id="c" colspan="2">Mike</th> <!-- Mike ocupa 2 columnas -->
+        <th id="d" colspan="2">Tara</th> <!-- Tara ocupa 2 columnas -->
+      </tr>
+
+      <tr>
+        <td id="a"></td> <!-- Celda vacía de la primera columna -->
+        <td id="c">Primera Prueba</td>
+        <td id="c">Segunda Prueba</td>
+        <td id="d">Primera Prueba</td>
+        <td id="d">Segunda Prueba</td>
+      </tr>
+
+      <tr>
+        <td id="a">Día 1</td>
+        <td id="e">25km</td>
+        <td id="e">38km</td>
+        <td id="f">28km</td>
+        <td id="f">37km</td>
+      </tr>
+
+      <tr>
+        <td id="a">Día 2</td>
+        <td id="e">22km</td>
+        <td id="e">35km</td>
+        <td id="f">30km</td>
+        <td id="f">35km</td>
+      </tr>
+
+    </div>
+  </table>
+</body>
+</html>
